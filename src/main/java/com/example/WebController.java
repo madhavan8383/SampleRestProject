@@ -26,7 +26,7 @@ public class WebController {
 		if(1==1)
 		throw new RuntimeException();
 		
-	    return "Marthandan requested";
+	    return "Marthandan requested2";
 	}
 	
 	@RequestMapping(value = "/marthandan22", method = RequestMethod.GET)
