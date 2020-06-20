@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WebController {
 	
-	
+	//First Maping methods
 	@RequestMapping(value = "/marthandan", method = RequestMethod.GET)
 	public String post() {
 		if(1==1)
